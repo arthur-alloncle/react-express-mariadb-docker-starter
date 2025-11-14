@@ -17,7 +17,7 @@
     "pull-migrations": "docker cp react-express-mariadb-docker-starter-backend-1:/code/migrations/. ./src/migrations/.",
     "play-migrations": "docker exec -it react-express-mariadb-docker-starter-backend-1 sh -c 'npx mikro-orm migration:up'",
     "reverse-migrations": "docker exec -it react-express-mariadb-docker-starter-backend-1 sh -c 'npx mikro-orm migration:down'",
-    "mariadb": "docker exec -it react-express-mariadb-docker-starter-database-1 sh -c 'mariadb -u root -p react-express-mariadb-docker-starter'"
+    "mariadb": "docker exec -it react-express-mariadb-docker-starter-database-1 sh -c 'mariadb -u root -p starterpack'"
   },
   "keywords": [],
   "author": "",
